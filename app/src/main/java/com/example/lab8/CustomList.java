@@ -77,6 +77,11 @@ public class CustomList extends ArrayAdapter<City> {
          cities.remove(city);
     }
 
+    /**
+     * returns the number of cities in the list
+     * @param city
+     * @return
+     */
     public Integer countCities(City city){
         return cities.size();
     }

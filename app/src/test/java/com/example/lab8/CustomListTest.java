@@ -53,7 +53,7 @@ public class CustomListTest {
         int listSize = list.getCount();
         City addedCity = new City("Vancouver", "BC");
         list.deleteCity(addedCity);
-        assertNotEquals(list.getCount(), listSize);
+        assertEquals(list.getCount(), listSize);
     }
 
 
